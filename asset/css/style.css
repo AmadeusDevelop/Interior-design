@@ -1,0 +1,305 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin-left: 460px;
+    margin-right: 100px;
+}
+
+.menu {
+  width: 250px;
+  color: white;
+  background: #45015d;
+  border-radius: 0px 15px 15px 0px;
+  padding: 60px 0px;
+  position: fixed;
+  height: 100%;
+  top: 0px;
+
+}
+
+.navelements a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 8px 45px;
+    margin-bottom: 15px;
+}
+.navelements {
+    margin-top: 26px;
+}
+
+.menu h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navelements a:hover {
+    background: #EE5757;
+}
+
+
+.main h1 {
+    font-size: 64px;
+    font-weight: 700;
+    margin: 0px;
+    margin-top: 100px;
+}
+
+
+/* opacity */
+
+
+.titlesc {
+    color: #45015D;
+    font-size: 48px;
+    /* padding-bottom: 20px; */
+    margin-bottom: 0px;
+    margin-top: 65px;
+}
+
+.title-line {
+    border-radius: 5px;
+    border: 3px solid #45015D;    
+    background-color: #45015D;
+    margin-top: 20px;
+}
+
+.imgs img {
+    display: inline-block;
+    width: 45%;
+    margin: 30px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    opacity: 0.5;
+    border-radius: 10px;
+}
+
+.imgs img:hover {
+    opacity: 1;
+    transition: 0.25s;
+}
+
+ol {
+    padding: 20px;
+}
+
+.team h2{
+    text-align: center;
+}
+
+.team .titlesc {
+    text-align: left;
+}
+
+.team p {
+    margin: 35px 0px;
+}
+
+.card:nth-child(1) .imgcard {
+    background-image: url(../img/team1.jpg);
+}
+.card:nth-child(2) .imgcard {
+    background-image: url(../img/team2.jpg);
+}
+.card:nth-child(3) .imgcard {
+    background-image: url(../img/team3.jpg);
+}
+
+.card {
+   width: 250px; 
+   display: inline-block;
+   margin-right: 65px;
+}
+
+.card:last-child {
+    margin-right: 0px;
+}
+
+.imgcard {
+    height: 166.5px;
+    background-size: contain;
+    border-radius: 10px;
+}
+
+.cardinfo {
+    background-color: #F1F1F1;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+    margin-top: 8.5px;
+}
+
+.cardinfo-post {
+    color: #C4C4C4;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.cardinfo-name {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.cardinfo p {
+    margin: 0px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.cards {
+    margin-top: 35px;
+    text-align: center;
+}
+
+
+.description{
+    margin-top: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.package ul {
+    
+    width: 400px;
+    text-align: center;
+}
+
+.package li {
+    border-bottom: 1px solid white;
+    text-align: center;
+    padding: 15px 0px;
+    display: inline-block;
+    background-color: #F1F1F1;
+    width: 390px;
+}
+
+.package-title {
+    padding: 27px 0px;
+    border-radius: 10px;
+    width: 400px;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+}
+
+.package .package-title {
+    background-color: #45015D;
+}
+
+.pro .package-title {
+    background-color: #EE5757;
+}
+
+.packages-cards {
+    margin-top: 51px;
+}
+
+.cost {
+    font-weight: 400;
+    font-size: 36px;
+    margin-top: 0px;
+}
+
+.amount {
+    font-size: 18px;
+    color: #444444;
+    margin-top: 15px;
+}
+
+.package-btn {
+    display: block;
+    width: 170px;
+    padding: 10px 0px;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.package .package-btn {
+    color: black;
+    background-color: white;
+}
+
+.pro .package-btn {
+    color: white;
+    background-color: #EE5757;
+}
+
+.package {
+    margin-right: 50px;
+    display: inline-block;
+}
+
+.packages-cards {
+    text-align: center;
+
+}
+
+.package:last-child {
+    margin-right: 0px;
+}
+
+input, label, button, textarea{
+    display: block;
+    width: 100%;
+    
+    border-radius: 20px;
+    outline: none;
+}
+
+input, textarea {
+    padding: 15px;
+    margin: 15px 0px;
+    border: 1px solid black;
+}
+
+button {
+    background-color: #45015D;
+    padding: 15px 0px;
+    color: white;
+}
+
+
+
+.footer {
+    text-align: right;
+    background-color: #F1F1F1;
+    padding: 80px 0px;
+    width: 100%;
+    /* height: 150px; */
+    margin-top: 100px;
+}
+
+.footer p {
+    /* margin: 62px 0px; */
+    /* margin-top: 62px; */
+    display: inline-block;
+    text-align: left;
+    /* margin-top: 62px; */
+    margin-right: 100px;
+}
+
+.contacts p {
+    margin-top: 30px;
+}
